@@ -7,10 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CalculatorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CalculatorApplication.class, args);
+
+        Calculator kalkulator = new Calculator(2,1);
+        kalkulator.dodawanie();
+
     }
 
-    Calculator kalkulator = new Calculator(2,1);
-    kalkulator.dodawanie();
+
 
 }
