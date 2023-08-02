@@ -10,6 +10,9 @@ public class CalculatorApplication {
 
         Calculator kalkulator = new Calculator(2,1);
         kalkulator.dodawanie();
+        kalkulator.odejmowanie();
+        kalkulator.getRoznica();
+        kalkulator.getSuma();
 
     }
 

@@ -12,12 +12,21 @@ public class Calculator {
         this.b = b;
     }
 
-    public int dodawanie(){
-        return (a+b);
+    public void dodawanie(){
+        suma = (a+b);
+        System.out.println("Suma cyfr to: " + suma);
     }
 
-    public int odejmowanie(){
-        return (a-b);
+    public void odejmowanie(){
+        roznica = (a-b);
+        System.out.println("Różnica cyfr to: " + roznica);
     }
 
+    public int getRoznica() {
+        return roznica;
+    }
+
+    public int getSuma() {
+        return suma;
+    }
 }
